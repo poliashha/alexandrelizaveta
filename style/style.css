@@ -279,6 +279,10 @@ html {
   border-color: var(--color-text-brown);
 }
 
+.dress-text{
+  font-variant: small-caps;
+}
+
 .custom-radio input[type="radio"]:checked + .radio-circle {
   border-color: var(--color-text-brown);
   background: var(--color-text-brown);
