@@ -435,9 +435,7 @@ html {
   font-weight: 500;
 }
 
-::placeholder {
-  font-family: "Medium";
-}
+
 
 .footer {
   margin-bottom: 45px;
