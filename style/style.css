@@ -195,7 +195,7 @@ html {
   padding-top: 30px;
 }
 
-.hotel{
+.hotel {
   padding-top: 20px;
 }
 
@@ -286,7 +286,7 @@ html {
 .radio-text {
   text-align: left;
   font-size: 18px;
-  font-family: 'Medium';
+  font-family: "Medium";
   font-weight: 500;
 }
 
@@ -297,7 +297,6 @@ html {
   font-size: 18px;
   padding-top: 4px;
 }
-
 
 .checkbox__input {
   appearance: none;
@@ -425,22 +424,29 @@ html {
   color: var(--bg-color);
 }
 
-.big-checkbox{
+.big-checkbox {
   width: 17px;
 }
 
-.allergy-text{
+.allergy-text {
   font-size: 18px;
-  font-family: 'Medium';
+  font-family: "Medium";
   font-weight: 500;
 }
 
-::placeholder{
-  font-family: 'Medium';
+::placeholder {
+  font-family: "Medium";
 }
 
-.footer{
+.footer {
   margin-bottom: 45px;
+}
+
+.papeflower-img {
+  max-width: 412px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 412 / 229;
 }
 
 @media (width<412px) {
@@ -449,13 +455,6 @@ html {
     width: 100%;
     height: auto;
     aspect-ratio: 412 / 202;
-  }
-
-  .papeflower-img {
-    max-width: 412px;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 412 / 229;
   }
 
   .circle-img {
