@@ -263,6 +263,7 @@ html {
   border-radius: 0;
   outline: none;
   transition: 0.3s all ease;
+  font-family: var(--anketa-text);
 }
 
 .input:focus {
