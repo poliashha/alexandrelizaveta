@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:title"
+      content="Приглашение на свадьбу | 07.08.2026"
+    />
+    <meta property="og:description" content="Приглашение на торжество" />
+    <meta property="og:image" content="./img/icon.jpg" />
+    <meta property="og:image:width" content="359" />
+    <meta property="og:image:height" content="359" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta name="color-scheme" content="light" />
+    <title>Приглашение на свадьбу</title>
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/variabels.css" />
+    <link rel="icon" href="img/icon.svg" sizes="any" />
+    <link rel="icon" href="img/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="bockname">
+      <h1 class="kursiv position-text">Александр</h1>
+      <h1 class="kursiv medium-position">&</h1>
+      <h1 class="kursiv bottom-position">Елизавета</h1>
+      <div class="date-block">
+        <p class="text date-text">07</p>
+        <span class="line"></span>
+        <p class="text date-text">08</p>
+        <span class="line"></span>
+        <p class="text date-text">2026</p>
+        </div>
+      </div>
+     
+    </header>
+    <body class="body">
+      
+      <article class="pape">
+        <img class="pape-img" src="./img/pape.png" alt="" />
+      </article>
+      <article class="card green">
+        <h2 class="kursiv tetx-kursiv padding-text">Дорогие гости!</h2>
+        <p class="text guests-text">
+          Приглашаем вас на нашу свадьбу. Мы хотим соединить наши судьбы и наши сердца. Нам будет очень приятно разделить с вами этот день.
+        </p>
+       
+        <p class="text date-text">07.08.2026</p>
+        <object
+          type="image/svg+xml"
+          data="./img/light.svg"
+          width="295"
+          height="238"
+        ></object>
+      </article>
+      <article class="card green">
+        <h2 class="kursiv tetx-kursiv padding-text">Торжество</h2>
+        <p class="text guests-text">
+          Банкетный зал «Александр Грин», Адрес: д. Котляково, ул. Новостройка, 13
+        </p>
+        <button class="location map-button"><a class="reference" href="https://yandex.ru/maps/-/CPxonDmd" target="_blank">Карта</a></button>
+        <article class="papeflower">
+        <img class=" papeflower-img" src="./img/papeflower.png" alt="" />
+      </article>
+      </article>
+      <article class="card time">
+        <h2 class="kursiv tetx-kursiv padding-text timing">Тайминг</h2>
+        <object
+          class="time-img"
+          type="image/svg+xml"
+          data="./img/time.svg"
+          width="412"
+          height="536"
+        ></object>
+      </article>
+      <article class="card white dresscode">
+        <h2 class="kursiv">Дресс-код</h2>
+        <p class="text guests-text">
+          Цветовых ограничений нет. Будем рады видеть вас в праздничных нарядах. 
+Просим воздержаться от джинсов и повседневного стиля — пусть этот день будет особенным для всех нас.
+        </p>
+      </article>
+      <article class="papeonly">
+        <img class="papeonly-img" src="./img/papeonle.png" alt="" />
+      </article>
+      <article class="card green wishes">
+        <h2 class="kursiv tetx-kursiv padding-text">Пожелания</h2>
+        
+         <object
+          class="piple"
+          type="image/svg+xml"
+          data="./img/marka.svg"
+          width="90"
+          height="87"
+        ></object>
+        <p class="text guests-text wishes-tetxt ">
+          Дорогие гости, мы очень любим цветы, но после свадьбы планируем уехать и, к сожалению, не сможем долго ими наслаждаться. Поэтому будем благодарны, если вместо букетов вы выберете что-то другое — ваше внимание и тёплые пожелания для нас будут самым ценным подарком.
+        </p>
+      </article>
+      
+      <article class="card green detals down">
+      <h2 class="kursiv tetx-kursiv dital-text">Размещение<br/> после праздника</h2>
+        <p class="text guests-text hotel">
+        Если после свадьбы вы захотите остаться на ночь и отдохнуть, вы можете забронировать номер на сайте отеля "Меридиан Домодедово"
+        </p>
+        <button class="location map-button"><a class="reference" href="https://meridian-domodedovo.ru/#rooms" target="_blank">забронировать</a></button>
+      </article>
+     </article><article class="papeonly papewishes">
+        <img class="papeonly-img" src="./img/papeonle.png" alt="" />
+      </article>
+      <article class="anketa">
+        <h2 class="kursiv ">Анкета</h2>
+        <form  class="form-box" name="submit-to-google-sheet" id="form" action="#">
+          <label class="input_box">
+          <input
+            class="input"
+            name="name"
+            id="name"
+            type="text"
+            placeholder="Имя Фамилия" required
+          />
+          <span class="error-text" id="error-text">Пожалуйста, заполните поле</span>
+        </label>
+          <fieldset class="radio" >
+            <h2 class="radio-text">
+              Сможете ли вы присутствовать?
+            </h2>
+            <label class="custom-radio">
+              <input type="radio" name="presence" value="да" id="presenceYes" required/>
+              <span class="radio-circle"></span>
+              <span  class="text-input">Да</span>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="presence" value="к сожалению, не смогу" id="presenceNo" />
+              <span class="radio-circle"></span>
+              <span class="text-input">К сожалению, не смогу</span>
+            </label>
+          
+            <div class="radio-error" id="presenceError">
+          
+          Выберите, один из вариантов
+        </div>
+      </fieldset>
+          <fieldset class="radio" >
+            <h2 class="radio-text">
+              Потребуется ли вам трансфер?
+            </h2>
+            <label class="custom-radio">
+              <input type="radio" name="car" value="да, до банкетного зала" />
+              <span class="radio-circle"></span>
+              <span  class="text-input">Да, до банкетного зала</span>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="car" value="да, до банкетного зала и обратно" />
+              <span class="radio-circle"></span>
+              <span class="text-input">Да, до банкетного зала и обратно</span>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="car" value="да, только обратно" />
+              <span class="radio-circle"></span>
+              <span class="text-input">Да, только обратно</span>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="car" value="нет, я сам доберусь" />
+              <span class="radio-circle"></span>
+              <span class="text-input">Нет, я сам доберусь</span>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="car" value="пока не знаю, я сообщу вам позже" />
+              <span class="radio-circle"></span>
+              <span class="text-input">Пока не знаю, я сообщу вам позже</span>
+            </label>
+      
+      </fieldset>
+          <label class="input_box allergy-text">Есть ли у вас какие-нибудь ограничения в еде? (аллергии, непереносимость групп продуктов и тд)
+          <input
+            class="input"
+            name="allergy"
+            id="allergy"
+            type="text"
+            placeholder="" 
+          />
+        
+        </label>
+<fieldset class="radio">
+  <h2 class=" radio-text varints-text">
+             Какой алкоголь вы предпочитаете?
+            </h2>
+            
+          <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="шампанское"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Шампанское</span>
+          </label>
+           <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="красное вино"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Красное вино</span>
+          </label>
+           <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="белое вино"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Белое вино</span>
+          </label>
+          <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input big-checkbox"
+            value="крепкие напитки (водка, коньяк, виски)"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Крепкие напитки (водка, коньяк, виски)</span>
+          </label>
+           <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="не буду пить алкоголь"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Не буду пить алкоголь</span>
+          </label>
+          
+          </fieldset>
+          <button class="button hover" type="submit"><p class="href-button button-text">Отправить</p></button>
+          <div class="form-send"></div>
+        </form>
+      </article>
+      <article class="card white footer">
+        <h3 class="kursiv footer-text">С любовью,</h3>
+        <h3 class="kursiv footer-text">Александр и Елизавета</h3>
+       
+      </article>
+      </article>
+    <script src="./script.js"></script>
+  </body>
+</html>
