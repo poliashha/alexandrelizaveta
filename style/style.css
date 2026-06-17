@@ -449,27 +449,26 @@ html {
   aspect-ratio: 412 / 229;
 }
 
-@media (width<412px) {
-  .pape-img {
-    max-width: 412px;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 412 / 202;
-  }
+.pape-img {
+  max-width: 412px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 412 / 202;
+}
 
+.papeonly-img {
+  max-width: 412px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 412 / 166;
+}
+@media (width<412px) {
   .circle-img {
     max-width: 358px;
     width: 100%;
     height: auto;
     aspect-ratio: 358 / 64;
     margin: 0 -27px;
-  }
-
-  .papeonly-img {
-    max-width: 412px;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 412 / 166;
   }
 }
 
