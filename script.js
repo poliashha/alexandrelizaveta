@@ -86,4 +86,3 @@ mapbutton.addEventListener("touchend", function (e) {
   this.classList.remove("touch-pressed");
 });
 
-

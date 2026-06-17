@@ -272,7 +272,7 @@ html {
 
 .input::placeholder {
   color: var(--color-text-brown);
-  margin-left: -7px;
+  text-indent: 0;
 }
 
 .custom-radio:hover .radio-circle {
@@ -434,7 +434,6 @@ html {
   font-family: "Medium";
   font-weight: 500;
 }
-
 
 
 .footer {
